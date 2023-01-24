@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import heroImage from "../images/pandar.png";
+import heroImage from "../images/Tlama.jpg";
 import {
   useAccount,
   usePrepareContractWrite,
@@ -120,7 +120,7 @@ const Intro = () => {
 
 
   return (
-    <div className="bg-gradient-to-b from-slate-800  to-slate-400 h-screen w-full ">
+    <div className="bg-black h-screen w-full ">
       <div className="flex flex-col md:flex-row px-5 justify-center lg:mr-16 h-screen w-full">
         <div className="m-auto  pt-14 md:pt-0 ml-auto mr-auto md:ml-24 md:mr-10">
           <div>{<Image src={heroImage} alt="heroBanner" width={400} />}</div>
